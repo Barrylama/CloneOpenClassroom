@@ -196,8 +196,21 @@ main{
     height: 220px;
 }
 .avis{
-    margin-top: 40px;
+    display: flex;
+    margin-top: 80px;
     background-color: #9da9f3;
     height: 338px;
     width: 100%;
+}
+.avis-left{
+    width: 40%;
+    margin-left: 10px;
+}
+
+.avis-right{
+    font-size: 17px;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 60%;
+    margin-right: 10px;
 }
